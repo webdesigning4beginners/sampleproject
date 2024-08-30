@@ -14,9 +14,9 @@ test.beforeEach(async ({ page }) => {
     waitUntil: "domcontentloaded",
   });
   await page.waitForTimeout(5000);
-  await page.waitForTimeout(5000);
 
-  await page.waitForTimeout(5000);
+
+  
 
   await page.waitForTimeout(5000);
 
