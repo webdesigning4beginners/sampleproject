@@ -18,6 +18,7 @@ class rahulshettyAutomationpractise {
   async waiting() {
     await this.page.waitForTimeout(5000);
     console.log('This is good');
+    console.log('Testing');
   }
 }
 
