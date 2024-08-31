@@ -7,7 +7,7 @@ class rahulshettyAutomationpractise {
 
   async SelectdropdownValidation(option1, option2, option3, option4) {
     await this.selectdropdown.selectOption({index: option1});
-    await this.selectdropdown.selectOption(Option1);
+    await this.selectdropdown.selectOption({index: option2});
     await this.selectdropdown.selectOption({index: option3});
     await this.selectdropdown.selectOption({index: option4});
 
